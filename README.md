@@ -1,52 +1,39 @@
-# Project Name
-> Outline a brief description of your project.
+# Lending Club Case Study
+> Lending Club is a marketplace for personal loans that matches borrowers who are seeking a loan with investors looking to lend money and make a return. 
 
+## Problem Statement
+When the company receives a loan application, the company has to make a decision for loan approval based on the applicant’s profile. Two types of risks are associated with the bank’s decision:
 
-## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
+If the applicant is likely to repay the loan, then not approving the loan results in a loss of business to the company
 
-<!-- You can include any other section that is pertinent to your problem -->
+If the applicant is not likely to repay the loan, i.e. he/she is likely to default, then approving the loan may lead to a financial loss for the company
 
-## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+So, company wants to understand the driving factors (or driver variables) behind loan default, i.e. the variables which are strong indicators of default.  The company can utilize this knownledge for its portfolio and risk assessment. 
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+<br>
 
-## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+## Problem Solving Methodology
+* Data Understanding-
+> Understanding and working with data dictionary and getting good knowledge of all the columns and their domain specific uses.
+* Data Cleaning-
+> Removing null valued columns, single uniques columns, unnecessary columns then manipulation of data such as conversion of data types, removing outliers, deriving new variables and many more.
+* Univariate Analysis-
+> Analysing each columns and plotting the distribution of each to get more information.
+* Segmented Univariate Analysis-
+> To get more insight of single data variables in the form of segments.
+* Bivariate Analysis-
+> Through this we can analyse two variables and determine empirical relationship between them.
+* Recommendations-
+> Atlast we can recommend the investor what all variables to be considered while approving the loan so that loss of the company can be reduced. 
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
+<br>
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- Python - version 3.x
 
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
+## Libraries Used
+- Pandas , Numpy , Matplotlib , Seaborn
 
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
-
-
-## Contact
-Created by [@githubusername] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+## Contributors
+* [Navya Hegde](https://github.com/navyahegde16/)
+* [Raghuvendra Goud E](https://github.com/Raghu29121999/)
